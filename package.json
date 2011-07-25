@@ -1,24 +1,23 @@
 {
+  "author": "Dan Dean <@dandean> (http://dandean.com)",
   "name": "express-form",
   "description": "Form validation and data filtering for Express",
-  "version": "0.5.3",
+  "version": "0.6.1",
   "homepage": "http://dandean.github.com/express-form",
   "repository": {
     "type": "git",
-    "url": "http://github.com/dandean/express-form.git"
+    "url": "git://github.com/dandean/express-form.git"
   },
-  "author": "Dan Dean <me@dandean.com> (http://dandean.com)",
   "contributors": [ 
-    { "name": "Dan Dean", "email": "me@dandean.com" }, 
-    { "name": "Marc Harter", "email": "wavded@gmail.com" }
+    "Marc Harter <wavded@gmail.com>",
+    "Sugarstack <@sugarstack>"
   ],
   "keywords" : ["form", "validator", "validation", "express"],
   "dependencies": {
     "validator": ">= 0.1.2",
     "object-additions": ">= 0.5.0"
   },
-  "main" : "./index",
-  "directories": { "lib": "./lib" },
+  "main" : "index",
   "bugs" : { "web" : "http://github.com/dandean/express-form/issues" },
   "scripts": { "test": "expresso" },
   "engines": { "node": ">=0.2.2" },
